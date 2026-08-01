@@ -11,15 +11,11 @@ Aplicativo desktop desenvolvido em C# com Windows Forms para visualização de v
 
 ## 📸 Demonstração
 
-> Adicione aqui um ou mais screenshots do aplicativo em funcionamento.
-
 ### Tela Inicial
 ![Tela Inicial](./docs/screenshots/tela-inicial.png)
 
 ### Selecionando Marca e Modelo
 ![Seleção de Veículo](./docs/screenshots/selecao-veiculo.png)
-
-> 💡 **Dica:** crie a pasta `docs/screenshots/` na raiz do repositório e salve as imagens com os nomes acima.
 
 ---
 
