@@ -5,7 +5,19 @@ namespace VisualizadorDeProdutos {
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) {
-            string[] arquivos = Directory.GetFiles(@"C:\C#\Projeto Visualizador de Produtos\Carros"); // busca as imagens direto deste local
+            string pastaImagens = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Carros");
+
+            if (!Directory.Exists(pastaImagens)) {
+                MessageBox.Show("Pasta de imagens não encontrada: " + pastaImagens);
+                return;
+            }
+
+            string[] arquivos = Directory.GetFiles(pastaImagens);
+
+            if (arquivos.Length == 0) {
+                MessageBox.Show("Nenhuma imagem encontrada na pasta: " + pastaImagens);
+                return;
+            }
 
             foreach (string caminhoCompleto in arquivos) {
                 string nomeArquivoSemExtensao = Path.GetFileNameWithoutExtension(caminhoCompleto);
