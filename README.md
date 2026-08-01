@@ -1,4 +1,4 @@
-﻿# 🚗 Visualizador de Produtos
+﻿# Visualizador de Produtos
 
 Aplicativo desktop desenvolvido em C# com Windows Forms para visualização de veículos por marca e modelo.
 
@@ -9,7 +9,7 @@ Aplicativo desktop desenvolvido em C# com Windows Forms para visualização de v
 
 ---
 
-## 📸 Demonstração
+## Demonstração
 
 ### Tela Inicial
 ![Tela Inicial](./docs/screenshots/tela-inicial.png)
@@ -19,7 +19,7 @@ Aplicativo desktop desenvolvido em C# com Windows Forms para visualização de v
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Seleção intuitiva de marca e modelo de veículos através de comboboxes.
 - Exibição dinâmica da imagem correspondente ao modelo escolhido.
@@ -29,7 +29,7 @@ Aplicativo desktop desenvolvido em C# com Windows Forms para visualização de v
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **.NET 9**
 - **C# 13**
@@ -38,7 +38,7 @@ Aplicativo desktop desenvolvido em C# com Windows Forms para visualização de v
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
